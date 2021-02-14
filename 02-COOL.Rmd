@@ -1,1 +1,37 @@
 # Classroom Object Oriented Language (COOL)
+
+COOL is a small object oriented language. It has many features of an object oriented language. You can write many simple programs in COOL language. We shall be using COOL as our source language. Our aim in this course is to develop a compiler that can translate COOL programs into executable code.
+
+```{}
+(* hello-world.cl *)
+class Main inherits IO {
+  main() : Object {
+    out_string("Hello, world.\n")
+  } ;
+} ; 
+```
+
+You can download the relevant COOL stuff from the following links
+
+* [COOL Reference Manual](./cool/cool-manual.pdf)
+* [COOL Compiler](./cool/cool.exe)
+* [COOL Examples](./cool/cool-examples.zip)
+
+To run COOL programs:
+1. Download the COOL compiler and COOL examples in same folder
+2. Unzip the cool-examples folder
+3. Open a COOL example in Visual Studio Code
+4. Open terminal in Visual Studio Code
+5. Change to the cool-examples directory
+6. Type the following command
+
+``` 
+cool hello-world.cl
+```
+
+
+
+
+
+
+

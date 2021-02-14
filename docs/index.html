@@ -32,7 +32,7 @@
   
   
 
-<link rel="next" href="programming-languages-and-compilers.html"/>
+<link rel="next" href="classroom-object-oriented-language-cool.html"/>
 <script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -70,10 +70,29 @@
 <li><a href="./">CSC 3121</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Course Introduction</a></li>
-<li class="chapter" data-level="2" data-path="programming-languages-and-compilers.html"><a href="programming-languages-and-compilers.html"><i class="fa fa-check"></i><b>2</b> Programming Languages and Compilers</a></li>
-<li class="chapter" data-level="3" data-path="classroom-object-oriented-language-cool.html"><a href="classroom-object-oriented-language-cool.html"><i class="fa fa-check"></i><b>3</b> Classroom Object Oriented Language (COOL)</a></li>
-<li class="chapter" data-level="4" data-path="lexical-analysis.html"><a href="lexical-analysis.html"><i class="fa fa-check"></i><b>4</b> Lexical Analysis</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#course-administration"><i class="fa fa-check"></i><b>1.1</b> Course Administration</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#protocol-for-online-lectures-discussion"><i class="fa fa-check"></i><b>1.1.1</b> Protocol for Online Lectures &amp; Discussion</a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#course-assessment"><i class="fa fa-check"></i><b>1.1.2</b> Course Assessment</a></li>
+<li class="chapter" data-level="1.1.3" data-path="index.html"><a href="index.html#reference-books"><i class="fa fa-check"></i><b>1.1.3</b> Reference Books</a></li>
+<li class="chapter" data-level="1.1.4" data-path="index.html"><a href="index.html#softwares-and-programming-languages"><i class="fa fa-check"></i><b>1.1.4</b> Softwares and Programming Languages</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#what-is-a-compiler"><i class="fa fa-check"></i><b>1.2</b> What is a Compiler?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#why-should-we-study-compiler"><i class="fa fa-check"></i><b>1.3</b> Why should we study Compiler?</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#structure-of-a-compiler"><i class="fa fa-check"></i><b>1.4</b> Structure of a Compiler</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#stages-of-compilation"><i class="fa fa-check"></i><b>1.5</b> Stages of Compilation</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="index.html"><a href="index.html#lexical-analysis"><i class="fa fa-check"></i><b>1.5.1</b> Lexical Analysis</a></li>
+<li class="chapter" data-level="1.5.2" data-path="index.html"><a href="index.html#syntax-analysis"><i class="fa fa-check"></i><b>1.5.2</b> Syntax Analysis</a></li>
+<li class="chapter" data-level="1.5.3" data-path="index.html"><a href="index.html#semantic-analysis"><i class="fa fa-check"></i><b>1.5.3</b> Semantic Analysis</a></li>
+<li class="chapter" data-level="1.5.4" data-path="index.html"><a href="index.html#code-optimization"><i class="fa fa-check"></i><b>1.5.4</b> Code Optimization</a></li>
+<li class="chapter" data-level="1.5.5" data-path="index.html"><a href="index.html#code-generation"><i class="fa fa-check"></i><b>1.5.5</b> Code Generation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="classroom-object-oriented-language-cool.html"><a href="classroom-object-oriented-language-cool.html"><i class="fa fa-check"></i><b>2</b> Classroom Object Oriented Language (COOL)</a></li>
+<li class="chapter" data-level="3" data-path="lexical-analysis-1.html"><a href="lexical-analysis-1.html"><i class="fa fa-check"></i><b>3</b> Lexical Analysis</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 </ul>
@@ -96,11 +115,133 @@
 <div id="header">
 <h1 class="title">Compiler Construction</h1>
 <p class="author"><em>Noman Javed</em></p>
-<p class="date"><em>2021-02-14</em></p>
+<p class="date"><em>14 February 2021</em></p>
 </div>
-<div id="course-introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Lecture 1</span> Course Introduction</h1>
+<div id="introduction" class="section level1" number="1">
+<h1><span class="header-section-number">Lecture 1</span> Introduction</h1>
+<p>Welcome to this adventurous course on Compiler Construction. This course will enable you to revise rather implement a lot of stuff you have covered in earlier courses. By the end of this course you will be able to design and implement a compiler of a simple high level programming language.</p>
+<div id="course-administration" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Course Administration</h2>
+<div id="protocol-for-online-lectures-discussion" class="section level3" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> Protocol for Online Lectures &amp; Discussion</h3>
+<p>We shall be using Zoom for the online sessions. I shall share the link of the Zoom session on Whatsapp group before the start of every lecture. All other relevant announcements will be made on Whatsapp group. So, I suggest to avoid sharing irrelevant stuff on the Whatsapp group.</p>
+<p>I prefer my lectures to be interactive and you will get ample opportunity to share your views, ask questions or answer others questions. However, to avoid unnecessary disturbance and noise, I suggest to turn off your webcams and mute your microphones. You can, however, unmute it any time you want to ask a question.</p>
+</div>
+<div id="course-assessment" class="section level3" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> Course Assessment</h3>
+<ol style="list-style-type: decimal">
+<li>Five programming assignments - one for each phase of compilation (30%)</li>
+<li>Midterm (30%)</li>
+<li>Final Exam (40%)</li>
+</ol>
+</div>
+<div id="reference-books" class="section level3" number="1.1.3">
+<h3><span class="header-section-number">1.1.3</span> Reference Books</h3>
+<ul>
+<li>Engineering a compiler - 2nd Edition</li>
+<li>Introduction to Compilers and Language Design - 2nd Edition</li>
+</ul>
+</div>
+<div id="softwares-and-programming-languages" class="section level3" number="1.1.4">
+<h3><span class="header-section-number">1.1.4</span> Softwares and Programming Languages</h3>
+<p>Python will be used as the implementation language during the course. So, it is your responsibility to have a functional compiler / IDE for python. I shall be using Anaconda for Python and Visual Studio Code as the IDE.</p>
+</div>
+</div>
+<div id="what-is-a-compiler" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> What is a Compiler?</h2>
+<p>A software that converts a source program to an executable program. Source program is usually written in a high level language like C, C++, Java or Python etc. Executable program is the machine code that your computer can understand and execute to generate output e.g. a .exe file on windows operating system .</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="images/source-machine.png" alt="Compiler: A source code to machine code translator"  />
+<p class="caption">
+Figure 1.1: Compiler: A source code to machine code translator
+</p>
+</div>
+<p>We talk about three languages when we discuss a compiler
+1. Source Language: Any high level programming language in which we want to write our programs.
+2. Target Language: Language that can be executed on the machine usually the machine language.
+3. Implementation Language: Language used to write the code of compiler.</p>
+<p>In our case, we will be using
+* Classroom object oriented language (COOL) as the source language
+* Target language will be the machine language
+* Implementation language will be Python</p>
+</div>
+<div id="why-should-we-study-compiler" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Why should we study Compiler?</h2>
+<ol style="list-style-type: decimal">
+<li>To become a better programmer: A compiler is a beautiful combination of theory and practice. You will get a chance to implement various phases of compilation. All these phases comprise of various algorithms and you will implement these algorithms in code. This will sharpen your programming skills and boost your confidence.</li>
+<li>To create your own tools: Many of the real world applications use one or more of the algorithms implemented in compiler. For example many word processors and code IDE’s implement parser to give useful tips to writers.</li>
+<li>To implement your own language: There are many situations in which designing a new language is the best solution. These languages are usually called Domain Specific Languages. For example, HTML is a domain specific language use to share information over internet.</li>
+<li>To contribute to existing compilers: There are many open source compiler projects and hundreds of people are contributing to them to extend the functionality of the compilers.</li>
+</ol>
+</div>
+<div id="structure-of-a-compiler" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> Structure of a Compiler</h2>
+<p>There are two major parts of a compiler:
+1. Front End
+2. Back End</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<img src="images/frontend-backend.png" alt="Structure of a compiler"  />
+<p class="caption">
+Figure 1.2: Structure of a compiler
+</p>
+</div>
+<p>The responsibility of the <em>front end</em> is to make sure that source program is error free. So, in case of an error it is its responsibility to inform the programmer about the error and pin point the location of the error. If there are no errors in the source code, front end converts the source code in an intermediate representation (IR).</p>
+<p><em>Intermediate representation</em> is usually a low level language. More on it later.</p>
+<p><em>Back end</em> works on the intermediate language code and tries to optimize it for performance. After optimization it generates the executable code that can be executed by the host machine.</p>
+</div>
+<div id="stages-of-compilation" class="section level2" number="1.5">
+<h2><span class="header-section-number">1.5</span> Stages of Compilation</h2>
+<p>Following are the five main stages of compilation:</p>
+<ol style="list-style-type: decimal">
+<li>Lexical Analysis</li>
+<li>Syntax Analysis</li>
+<li>Semantic Analysis</li>
+<li>Code Optimization</li>
+<li>Code Generation</li>
+</ol>
+<p>First three of these are the analysis phase of compilation and are collectively called Front End.
+Last two of them are the synthesis phase and are collectively called Back End.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<img src="images/stages-of-a-compiler.png" alt="Stages of a Compiler"  />
+<p class="caption">
+Figure 1.3: Stages of a Compiler
+</p>
+</div>
+<div id="lexical-analysis" class="section level3" number="1.5.1">
+<h3><span class="header-section-number">1.5.1</span> Lexical Analysis</h3>
+<p>The job of lexical analyzer is to read the source program, character by character, and converts it into tokens. A token is a minimal unit defined by a language.</p>
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<img src="images/lexical-analysis.png" alt="Lexical Analysis"  />
+<p class="caption">
+Figure 1.4: Lexical Analysis
+</p>
+</div>
+<p>The other names used for a lexical analyzer are tokenizer and scanner.</p>
+</div>
+<div id="syntax-analysis" class="section level3" number="1.5.2">
+<h3><span class="header-section-number">1.5.2</span> Syntax Analysis</h3>
+As is evident from its name, its responsibility is to check the syntax of the source program and verify that it follows the rules prescribed by the grammar. It demands tokens from the lexical analyzer and then constructs a tree usually called abstract syntax tree as an output if there is no syntax error in the code.
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-5"></span>
+<img src="images/syntax-analysis.png" alt="Syntax Analysis"  />
+<p class="caption">
+Figure 1.5: Syntax Analysis
+</p>
+</div>
+</div>
+<div id="semantic-analysis" class="section level3" number="1.5.3">
+<h3><span class="header-section-number">1.5.3</span> Semantic Analysis</h3>
+<p>Its job is to look for semantic errors in the program. Semantic errors are errors like using a variable without declaring it or type mismatch errors in expressions. If the code is error free, it is converted into an intermediate representation.</p>
+</div>
+<div id="code-optimization" class="section level3" number="1.5.4">
+<h3><span class="header-section-number">1.5.4</span> Code Optimization</h3>
+<p>It looks for opportunities to improve the efficiency of the code. The efficiency can be measures both in terms of the time and memory. This is the most research intensive phase and a lot of researchers work on finding these optimization opportunities. Removing the dead / unreachable code is an example of one such optimization.</p>
+</div>
+<div id="code-generation" class="section level3" number="1.5.5">
+<h3><span class="header-section-number">1.5.5</span> Code Generation</h3>
+<p>Its role is to convert the optimized intermediate level code to the executable code. Some of its tasks are register allocation and instruction scheduling.</p>
 
+</div>
+</div>
 </div>
             </section>
 
@@ -108,7 +249,7 @@
         </div>
       </div>
 
-<a href="programming-languages-and-compilers.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="classroom-object-oriented-language-cool.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
