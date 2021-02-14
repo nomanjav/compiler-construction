@@ -1,4 +1,4 @@
 course-introduction
-compiler-construction-introduction
+programming-languages-and-compilers
 classroom-object-oriented-language-cool
-a-caucus-race-and-a-long-tale
+lexical-analysis
