@@ -1,3 +1,4 @@
-down-the-rabbit-hole
-the-pool-of-tears
+course-introduction
+compiler-construction-introduction
+classroom-object-oriented-language-cool
 a-caucus-race-and-a-long-tale
