@@ -14,11 +14,11 @@ class Main inherits IO {
 You can download the relevant COOL stuff from the following links
 
 * [COOL Reference Manual](./cool/cool-manual.pdf)
-* [COOL Compiler](./cool/cool.exe)
 * [COOL Examples](./cool/cool-examples.zip)
 
 To run COOL programs:
-1. Download the COOL compiler and COOL examples in same folder
+
+1. Download COOL examples and extract it in a folder
 2. Unzip the cool-examples folder
 3. Open a COOL example in Visual Studio Code
 4. Open terminal in Visual Studio Code
