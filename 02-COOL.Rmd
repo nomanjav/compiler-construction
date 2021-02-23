@@ -28,6 +28,8 @@ To run COOL programs:
 ``` 
 cool hello-world.cl
 ```
+You can also compile COOL code online using the following transpiler:
+[Online COOL Compiler](https://nathanfriend.io/cooltojs/)
 
 
 
